@@ -1,9 +1,9 @@
 import React from "react";
 
-const PicCard = () => {
+const PicCard = ({ pic }) => {
   return (
-    <div>
-      <h1>Picture Card</h1>
+    <div className="pic-card">
+      <img src={pic.photo} alt={"photo de" + pic.artist} />
     </div>
   );
 };
