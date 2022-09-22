@@ -1,12 +1,6 @@
 {
   "pictures": [
     {
-      "artist": "Paulin Frustro",
-      "year": "2021",
-      "photo": "https://picsum.photos/400/352",
-      "id": 1
-    },
-    {
       "artist": "Kamau",
       "year": "2005",
       "photo": "https://picsum.photos/400/484",
@@ -47,6 +41,12 @@
       "year": "2021",
       "photo": "https://picsum.photos/400/470",
       "id": 9
+    },
+    {
+      "artist": "dfez",
+      "year": "1200",
+      "photo": "https://picsum.photos/400/305",
+      "id": 11
     }
   ]
 }

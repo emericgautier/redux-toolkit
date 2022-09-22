@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useRef, useState } from "react";
 import { FaRegEdit } from "react-icons/fa";
+import Delete from "./Delete";
 
 const PicCard = ({ pic }) => {
   const [edit, setEdit] = useState(false);
@@ -38,6 +39,7 @@ const PicCard = ({ pic }) => {
           <div className="edit-icon" onClick={() => setEdit(!edit)}>
             <FaRegEdit />
           </div>
+          <Delete id={pic.id} />
         </div>
       </div>
     </div>
